@@ -1,5 +1,104 @@
-.logo-a{
-    position: absolute;
+header{
+    height: 100px;
+}
+
+.logoA{
+    position: relative;
+    top: 40px;
     left: 84px;    
-    top: 40px;    
+}
+
+main{
+    height: 550px;
+}
+
+.botones{
+    position: absolute;
+    text-align: center;  
+    margin: 0 auto; 
+    bottom: 20%;
+    left: 39%;
+}
+
+.botonIniciar{
+    display: block;
+    width: 317px;
+    margin-bottom: 30px;
+    margin: 0 auto 30px auto;
+    height: 114px;
+    border-radius: 24px;
+    border-style: none;
+    background: darkblue;    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: antiquewhite;
+    font-size: 25px;
+    font-weight: lighter;
+    transition: 100ms;
+}
+
+.botonIniciar:hover{
+    background-color: lightblue;
+}
+
+.botonIniciar:active{
+    background-color: darkblue;
+}
+
+.botonNuevaPalabra{
+    width: 260px;
+    height: 50px;
+    border-radius: 24px;
+    border-style: dashed;
+    border-color: lightblue;
+    color: lightblue;
+    font-size: 18px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-width: 3px;
+    transition: 100ms;  
+}
+
+.botonNuevaPalabra:hover{
+    background-color: darkblue;
+    color: white;
+    border-color: white;    
+}
+
+.botonNuevaPalabra:active{
+    background-color: white;
+    color: lightblue;
+    border-color: lightblue;
+}
+
+footer {
+    position: relative;
+    text-align: center;
+    padding: 30px;
+    background-color: grey;
+    opacity: 0.8;
+}
+
+footer img{
+    width: 5%;
+}
+
+.copyright{ 
+    margin: 20px 0 10px 0;
+    font-size:smaller;
+}
+
+.contacto {
+    text-decoration: underline;    
+    font-size: smaller;
+}
+
+.logosContacto{
+    margin-top: 10px;
+}
+
+.logosContacto li{
+    display: inline-block;
+}
+
+.logo{
+    width: 50px;
 }
