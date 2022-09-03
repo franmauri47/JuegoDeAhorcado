@@ -5,7 +5,7 @@ function sortea(n) {
 }
 
 function palabraAleatoria () {
-    return palabras[sortea(palabras.length)];
+    return palabras[sortea(palabras.length-1)];
 }
 
 /* alert(palabraAleatoria()); */
