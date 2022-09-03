@@ -16,6 +16,44 @@ main{
     height: 550px;
 }
 
+footer {
+    position: relative;
+    text-align: center;
+    padding: 30px;
+    background-color: grey;
+    opacity: 0.8;
+}
+
+footer img{
+    width: 5%;
+}
+
+.copyright{ 
+    margin: 20px 0 10px 0;
+    font-size:smaller;
+}
+
+.contacto {
+    text-decoration: underline;    
+    font-size: smaller;
+}
+
+.logosContacto{
+    margin-top: 10px;
+}
+
+.logosContacto li{
+    display: inline-block;
+}
+
+.logo{
+    width: 50px;
+}
+
+/*Hasta acá se cumple en todas las páginas*/
+
+/*Esto corresponde a index.html*/
+
 .botones{
     position: absolute;
     text-align: center;  
@@ -73,38 +111,4 @@ main{
     background-color: white;
     color: lightblue;
     border-color: lightblue;
-}
-
-footer {
-    position: relative;
-    text-align: center;
-    padding: 30px;
-    background-color: grey;
-    opacity: 0.8;
-}
-
-footer img{
-    width: 5%;
-}
-
-.copyright{ 
-    margin: 20px 0 10px 0;
-    font-size:smaller;
-}
-
-.contacto {
-    text-decoration: underline;    
-    font-size: smaller;
-}
-
-.logosContacto{
-    margin-top: 10px;
-}
-
-.logosContacto li{
-    display: inline-block;
-}
-
-.logo{
-    width: 50px;
 }
